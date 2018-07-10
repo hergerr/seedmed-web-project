@@ -5,7 +5,8 @@
   width: 100%;
   background: url(../images/image_1_gray.jpg);
   background-size: cover;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+}
   .hero h1,
   .hero h3 {
     color: white; }
@@ -24,6 +25,7 @@
   border-radius: 10px; }
   .hero-box button {
     background-color: #B41530; }
+
 
 /* Offer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

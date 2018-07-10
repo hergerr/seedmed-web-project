@@ -31,6 +31,7 @@ button {
 
 .button-readmore {
   background-color: #CC1735;
+  margin-top: 30px;
 }
 
 .button-signup {
@@ -43,12 +44,31 @@ button {
   background-color: #F9F9F9;
   color: #747474;
   font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.top-bar-contact-location{
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.top-bar-contact-phone{
+  margin-left: 5px;
 }
 
 .header-logo img {
-  height: 85px;
+  height: 80px;
   display: inline-block;
-  padding: 15px 0;
+}
+
+.top-nav{
+  height: 140px;
+}
+
+.header-nav{
+  margin-top: 50px;
+  height: 140px;
 }
 
 .header-nav li {
@@ -60,16 +80,40 @@ button {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
+  margin-left: 40px;
 }
 .header-nav a:hover {
   color: #CC1735;
 }
+/* Slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer{
+  padding-top: 30px;
+  background-color: #e4e4e4;
+}
+
 .footer-logo img {
   height: 85px;
   display: inline-block;
+}
+
+.footer-nav{
+
+}
+.footer-nav li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-nav a{
+  text-decoration: none;
+  color: inherit;
+  text-align: left;
 }
 
 /* Media Queries
