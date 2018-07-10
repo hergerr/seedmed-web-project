@@ -1,0 +1,118 @@
+/* Base
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin: 0 auto;
+}
+
+.button-readmore {
+    background-color: #CC1735;
+}
+
+.button-signup {
+    background-color: #272727;
+}
+
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.top-bar {
+    background-color: #F9F9F9;
+    color: #747474;
+    font-size: 12px;
+}
+
+.header-logo img {
+    height: 85px;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.header-nav {
+    li {
+        list-style: none;
+        display: inline;
+    }
+    a {
+        color: #363636;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none; 
+        //line-height: 96px;
+        transition: color 0.2s ease-in-out;
+    }
+    a:hover {
+        color: #CC1735;
+    }
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer-logo img {
+    height: 85px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+// wyciągnąłem to ze skeleton.css
+// tak jak napisali, media queries dajemy od razu obok elemetu, którego dotyczą
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {}

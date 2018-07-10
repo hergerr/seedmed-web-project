@@ -1,0 +1,94 @@
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+    width: 100%;
+    background: url(../images/image_1_gray.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    h1,
+    h3 {
+        color: white;
+    }
+
+    p {
+        color: #D1D1D1;
+    }
+
+    h1 {
+        font-size: 56px;
+        padding-top: 20%;
+    }
+}
+
+.hero-boxes {
+    margin-top: 15%;
+}
+
+.hero-box {
+    padding: 20px;
+    background-color: #CC1735;
+    border-radius: 10px;
+
+    button {
+        background-color: #B41530;
+    }
+}
+
+/* Offer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.offer {
+    margin-top: 80px;
+    h2 {
+        font-size: 24px;
+        color: #363636;
+        margin-bottom: 80px;
+    }
+    h3 {
+        margin-top: 20px;
+        font-size: 18px;
+        height: 40px;
+    }
+    p {
+        font-size: 12px;
+        color: #6A6A6A;
+    }
+}
+
+// krzywo wypozycjonowane ikonki
+.icon-circle {
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    background-color: #eaeaea;
+    position: relative;
+    i {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+}
+
+/* Newsletter
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.newsletter {
+    margin-top: 80px;
+    background-color: #CC1735;
+    padding: 30px;
+    h4,
+    p {
+        color: white;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    input {
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+    button {
+        margin-top: 20px;
+        display: block;
+    }
+}
