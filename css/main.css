@@ -114,6 +114,11 @@ button {
   text-decoration: none;
   color: inherit;
   text-align: left;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-nav a:hover {
+  color: #CC1735;
 }
 
 /* Media Queries
