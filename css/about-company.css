@@ -1,9 +1,7 @@
-section {
-  padding: 25px;
-}
 
 .company {
   background-color: #f8f8f8;
+  padding: 25px;
 }
 
 .company p {
@@ -11,9 +9,15 @@ section {
   padding-left: 40px;
 }
 
+.company h3 {
+  text-align: justify;
+  padding-left: 40px;
+}
+
 .strategy {
   text-align: justify;
   background-color: white;
+  padding: 25px;
 }
 
 /* TODO */
