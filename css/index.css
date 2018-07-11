@@ -51,6 +51,7 @@
   background-color: #eaeaea;
   position: relative; }
   .icon-circle i {
+    text-align:right;
     position: absolute;
     top: 25%;
     left: 25%; }

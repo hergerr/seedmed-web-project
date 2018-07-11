@@ -68,7 +68,6 @@ button {
 
 .header-nav{
   margin-top: 50px;
-  height: 140px;
 }
 
 .header-nav li {
@@ -85,10 +84,6 @@ button {
 .header-nav a:hover {
   color: #CC1735;
 }
-/* Slider
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

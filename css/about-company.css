@@ -1,0 +1,35 @@
+section{
+  padding: 25px;
+}
+
+section p{
+  text-align: justify;
+  padding-left: 40px;
+}
+
+section h3{
+  text-align: justify;
+  padding-left: 40px;
+}
+
+section li{
+  text-align: justify;
+  list-style-position: outside;
+  padding-left: 10px;
+  font-size: 14px;
+
+}
+
+/* TODO */
+section ul{
+  list-style-image: url('images/dot.gif');
+  padding-left: 45px;
+}
+
+.company{
+    background-color: #f8f8f8;
+}
+
+.strategy{
+    background-color: white;
+}

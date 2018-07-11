@@ -1,3 +1,3 @@
 # seedmed-web-project
 
-jebac bulme
+Strona internetowa dla firmy SeedMed
