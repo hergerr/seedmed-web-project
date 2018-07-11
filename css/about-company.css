@@ -1,35 +1,45 @@
-section{
+section {
   padding: 25px;
 }
 
-section p{
+.company {
+  background-color: #f8f8f8;
+}
+
+.company p {
   text-align: justify;
   padding-left: 40px;
 }
 
-section h3{
+.strategy {
   text-align: justify;
-  padding-left: 40px;
-}
-
-section li{
-  text-align: justify;
-  list-style-position: outside;
-  padding-left: 10px;
-  font-size: 14px;
-
+  background-color: white;
 }
 
 /* TODO */
-section ul{
+
+.strategy ul {
   list-style-image: url('images/dot.gif');
   padding-left: 45px;
 }
 
-.company{
-    background-color: #f8f8f8;
+.strategy li {
+  list-style-position: outside;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
-.strategy{
-    background-color: white;
+.strategy h3 {
+  text-align: justify;
+  padding-left: 40px;
+}
+
+.services-summary {
+  padding: 80px;
+  color: white;
+  background-color: #CC1735;
+}
+
+.services-summary p {
+    text-align: center;
 }
