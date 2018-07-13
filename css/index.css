@@ -9,9 +9,15 @@
     height: 790px;
 }
 
+@media (max-width: 700px) {
+    .hero-slider {
+        height: 1100px;
+    }
+}
+
 @media (max-width: 550px) {
     .hero-slider {
-        height: 1130px;
+        height: 1200px;
     }
 }
 
@@ -21,15 +27,9 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     .hero-slider {
         height: 1300px;
-    }
-}
-
-@media (max-width: 300px) {
-    .hero-slider {
-        height: 1400px;
     }
 }
 

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Base
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -28,6 +29,15 @@ button {
     border-radius: 30px;
     color: white;
     margin: 0 auto;
+    border: none !important;
+    padding: 7px 40px;
+}
+
+@media (max-width: 700px) {
+    .one-third.column {
+        width: 100% !important;
+        margin: 20px 0;
+    }
 }
 
 .button-readmore {
@@ -37,6 +47,15 @@ button {
 
 .button-signup {
     background-color: #272727;
+}
+
+.button-readmore:hover {
+    color: white;
+    background-color: #272727;
+}
+
+.button-signup:hover {
+    background: white;
 }
 
 /* Header
@@ -157,11 +176,6 @@ button {
     color: #CC1735;
 }
 
-
-
-
-
-
 .header-nav-hamburger {
     position: absolute;
     top: 5%;
@@ -186,17 +200,6 @@ button {
     color: #CC1735;
 }
 
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
 #menuToggle {
     display: block;
     position: relative;
@@ -216,19 +219,11 @@ button {
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
-
     opacity: 0;
-    /* hide this */
     z-index: 2;
-    /* and place it over the hamburger */
     -webkit-touch-callout: none;
 }
-
-/*
- * Just a quick hamburger
- */
 
 #menuToggle span {
     display: block;
@@ -236,14 +231,10 @@ button {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #363636;
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
-
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     opacity 0.55s ease;
@@ -257,38 +248,20 @@ button {
     transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-
 #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #363636;
 }
 
-/*
- * But let's hide the middle one.
- */
-
 #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
-
 #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 
 #menu {
     width: 300px;
@@ -298,12 +271,9 @@ button {
     padding-left: 100px;
     height: 100vh;
     position: fixed;
-
     background: white;
-
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
 
@@ -315,36 +285,21 @@ button {
     font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
-
 #menuToggle input:checked ~ ul {
     transform: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .footer {
+    width: 100%;
     padding-top: 30px;
     background-color: #e4e4e4;
+}
+
+.footer span, .footer li {
+    color: #545454;
 }
 
 @media (max-width: 800px) {
@@ -353,14 +308,32 @@ button {
     .footer .one.column {
         width: 100% !important;
     }
+    
+    .footer{
+        text-align: center;
+    }
+    
+    .footer span {
+        display: block;
+        padding: 5px;
+    }
+    
+    .footer img {
+        padding-bottom: 15px;
+    }
 }
 
 .footer-logo img {
     height: 85px;
-    display: inline-block;
 }
 
 @media (max-width: 900px) {
+    .footer-logo img {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
     .footer-logo img {
         display: none;
     }
@@ -370,13 +343,11 @@ button {
 
 .footer-nav li {
     list-style: none;
-    text-decoration: none;
 }
 
 .footer-nav a {
     text-decoration: none;
     color: inherit;
-    text-align: left;
     transition: color 0.2s ease-in-out;
 }
 
