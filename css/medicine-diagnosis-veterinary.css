@@ -1,14 +1,14 @@
-.medicine-description{
-  background-color: #f8f8f8;
-  padding: 100px 0px 100px 0px;
+.medicine-description {
+    background-color: #f8f8f8;
+    padding: 100px 0px 100px 0px;
 }
 
 .medicine-description p {
-  text-align: justify;
-  padding-left: 40px;
+    text-align: justify;
+    padding-left: 40px;
 }
 
 .medicine-description h3 {
-  text-align: justify;
-  padding-left: 40px;
+    text-align: justify;
+    padding-left: 40px;
 }

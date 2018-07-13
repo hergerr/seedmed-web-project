@@ -1,47 +1,46 @@
-
 .company {
-  background-color: #f8f8f8;
-  padding: 25px;
+    background-color: #f8f8f8;
+    padding: 25px;
 }
 
 .company p {
-  text-align: justify;
-  padding-left: 40px;
+    text-align: justify;
+    padding-left: 40px;
 }
 
 .company h3 {
-  text-align: justify;
-  padding-left: 40px;
+    text-align: justify;
+    padding-left: 40px;
 }
 
 .strategy {
-  text-align: justify;
-  background-color: white;
-  padding: 25px;
+    text-align: justify;
+    background-color: white;
+    padding: 25px;
 }
 
 /* TODO */
 
 .strategy ul {
-  list-style-image: url('images/dot.gif');
-  padding-left: 45px;
+    list-style-image: url('images/dot.gif');
+    padding-left: 45px;
 }
 
 .strategy li {
-  list-style-position: outside;
-  padding-left: 10px;
-  font-size: 14px;
+    list-style-position: outside;
+    padding-left: 10px;
+    font-size: 14px;
 }
 
 .strategy h3 {
-  text-align: justify;
-  padding-left: 40px;
+    text-align: justify;
+    padding-left: 40px;
 }
 
 .services-summary {
-  padding: 80px;
-  color: white;
-  background-color: #CC1735;
+    padding: 80px;
+    color: white;
+    background-color: #CC1735;
 }
 
 .services-summary p {
