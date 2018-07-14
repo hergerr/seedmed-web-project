@@ -75,6 +75,11 @@
     display: block;
 }
 
+.hero-box a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Offer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -155,6 +160,13 @@
 .newsletter button {
     margin-top: 20px;
     display: block;
+    /* transition: color 0.7s;
+    transition: background-color 0.7s; */
+}
+
+.newsletter button:hover {
+    margin-top: 20px;
+    color: #CC1735;
 }
 
 .input-email {
@@ -164,11 +176,11 @@
 @media (max-width: 550px){
     .input-email {
         width: 300px;
-    } 
+    }
 }
 
 @media (max-width: 400px){
     .input-email {
         width: 200px;
-    } 
+    }
 }

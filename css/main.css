@@ -316,16 +316,16 @@ button {
     .footer .one.column {
         width: 100% !important;
     }
-    
+
     .footer{
         text-align: center;
     }
-    
+
     .footer span {
         display: block;
         padding: 5px;
     }
-    
+
     .footer img {
         padding-bottom: 15px;
     }

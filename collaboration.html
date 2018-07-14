@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/collaboration.css">
+  <link rel="stylesheet" href="css/infinite-slider.css">
 
   <!-- Font Awesome Icons
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -36,132 +37,167 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- Sripts for slider -------------------------------->
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- bootsrap - nazwy klas są w konflicie ze skeletonem -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 1
+          }
+        }]
+      });
+    });
+  </script>
+
 </head>
 
 <body>
   <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header>
-      <section class="top-bar">
-          <div class="container">
-              <div class="u-pull-right">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <span class="top-bar-contact-location">62-010 Pobiedziska, ul. Lewandowskiego 1</span>
-                  <i class="fas fa-phone"></i>
-                  <span class="top-bar-contact-phone">tel: +48 669 250 118</span>
-              </div>
-          </div>
-      </section>
+    <section class="top-bar">
       <div class="container">
-          <nav>
-              <div class="header-logo">
-                  <a href="index.html">
+        <div class="u-pull-right">
+          <i class="fas fa-map-marker-alt"></i>
+          <span class="top-bar-contact-location">62-010 Pobiedziska, ul. Lewandowskiego 1</span>
+          <i class="fas fa-phone"></i>
+          <span class="top-bar-contact-phone">tel: +48 669 250 118</span>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <nav>
+        <div class="header-logo">
+          <a href="index.html">
                       <img src="images/logo.png" alt="SeedMed - Health, Life, Love"/>
                   </a>
+        </div>
+        <div class="header-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-company.html">O&nbsp;firmie</a></li>
+            <div class="dropdown">
+              <li><a href="#">Kategorie</a></li>
+              <div class="dropdown-content">
+                <a href="medicine.html">Medycyna</a>
+                <a href="diagnosis.html">Diagnostyka</a>
+                <a href="veterinary.html">Weterynaria</a>
               </div>
-              <div class="header-nav">
-                  <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about-company.html">O&nbsp;firmie</a></li>
-                      <div class="dropdown">
-                          <li><a href="#">Kategorie</a></li>
-                          <div class="dropdown-content">
-                              <a href="medicine.html">Medycyna</a>
-                              <a href="diagnosis.html">Diagnostyka</a>
-                              <a href="veterinary.html">Weterynaria</a>
-                          </div>
-                      </div>
-                      <li><a href="collaboration.html">Współpraca</a></li>
-                      <li><a href="contact.html">Kontakt</a></li>
+            </div>
+            <li><a href="collaboration.html">Współpraca</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
 
-                  </ul>
-              </div>
+          </ul>
+        </div>
 
-              <div class="header-nav-hamburger" id="hamburger">
-                  <div id="menuToggle">
-                      <input type="checkbox" />
+        <div class="header-nav-hamburger" id="hamburger">
+          <div id="menuToggle">
+            <input type="checkbox" />
 
-                      <span></span>
-                      <span></span>
-                      <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
 
-                      <ul id="menu">
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about-company.html">O&nbsp;firmie</a></li>
-                          <li><a href="medicine.html">Medycyna</a></li>
-                          <li><a href="diagnosis.html">Diagnostyka</a></li>
-                          <li><a href="veterinary.html">Weterynaria</a></li>
-                          <li><a href="collaboration.html">Współpraca</a></li>
-                          <li><a href="contact.html">Kontakt</a></li>
-                      </ul>
-                  </div>
-              </div>
+            <ul id="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-company.html">O&nbsp;firmie</a></li>
+              <li><a href="medicine.html">Medycyna</a></li>
+              <li><a href="diagnosis.html">Diagnostyka</a></li>
+              <li><a href="veterinary.html">Weterynaria</a></li>
+              <li><a href="collaboration.html">Współpraca</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
 
-          </nav>
-      </div>
+      </nav>
+    </div>
   </header>
   <!-- End Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- Main section----------------------------->
-
-<section>
-  <div class="collaborating-companies row">
-    <div class="twelve columns">
-      <h4>Współpracujemy z firmami</h4>
+  <!-- Main section----------------------------->
+  <section>
+    <div class="collaborating-companies row">
+      <div class="twelve columns">
+        <h4>Współpracujemy z firmami</h4>
+      </div>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="twelve columns">
-      <h1>Tu narazie jest sciernisko</h1>
-      <h3>ale będzie San Francisco (tj slider)</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="container">
+          <section class="customer-logos slider">
+            <div class="slide"><img src="images/image-3.jpg"></div>
+            <div class="slide"><img src="images/image-4.jpg"></div>
+            <div class="slide"><img src="images/image-5.jpg"></div>
+            <div class="slide"><img src="images/image-6.jpg"></div>
+            <div class="slide"><img src="images/image-3.jpg"></div>
+            <div class="slide"><img src="images/image-5.jpg"></div>
+            <div class="slide"><img src="images/image-5.jpg"></div>
+            <div class="slide"><img src="images/image-5.jpg"></div>
+          </section>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
-
-<!-- End main section------------------------>
+  </section>
+  <!-- End main section------------------------>
 
   <!-- Footer ------------------------------------------->
   <footer class="footer">
-      <div class="container">
-          <div class="row">
-              <div class="two columns">
-                  <div class="footer-logo"><a href="index.html"><img src="images/logo.png" alt="SeedMed - Health, Life, Love"/></a></div>
-              </div>
-
-              <div class="two columns">
-                  <h6>Menu</h6>
-                  <div class="footer-nav">
-                      <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about-company.html">O&nbsp;firmie</a></li>
-                          <li><a href="medicine.html">Medycyna</a></li>
-                          <li><a href="diagnosis.html">Diagnostyka</a></li>
-                          <li><a href="veterinary.html">Weterynaria</a></li>
-                          <li><a href="collaboration.html">Współpraca</a></li>
-                          <li><a href="contact.html">Kontakt</a></li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="two columns">
-                  <h6>Owiedź nas na:</h6>
-                  <img src="images/linkedin_32px.png" alt="Link to our linkedin page">
-                  <img src="images/twitter_32px.png" alt="Link to our twitter page">
-              </div>
-
-              <div class="three columns">
-                  <h6>Skontaktuj się z nami:</h6>
-                  <span>62-010&nbsp;Pobiedziska, ul.&nbsp;Lewandowskiego&nbsp;1</span>
-                  <span>Tel:&nbsp;+48&nbsp;668&nbsp;250&nbsp;118</span>
-              </div>
-
-              <div class="three columns">
-                  <span>© 2017 Seedmed R. Ziarnik</span>
-              </div>
-
+    <div class="container">
+      <div class="row">
+        <div class="two columns">
+          <div class="footer-logo"><a href="index.html"><img src="images/logo.png" alt="SeedMed - Health, Life, Love"/></a></div>
+        </div>
+        <div class="two columns">
+          <h6>Menu</h6>
+          <div class="footer-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-company.html">O&nbsp;firmie</a></li>
+              <li><a href="medicine.html">Medycyna</a></li>
+              <li><a href="diagnosis.html">Diagnostyka</a></li>
+              <li><a href="veterinary.html">Weterynaria</a></li>
+              <li><a href="collaboration.html">Współpraca</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
           </div>
+        </div>
+        <div class="two columns">
+          <h6>Owiedź nas na:</h6>
+          <img src="images/linkedin_32px.png" alt="Link to our linkedin page">
+          <img src="images/twitter_32px.png" alt="Link to our twitter page">
+        </div>
+        <div class="three columns">
+          <h6>Skontaktuj się z nami:</h6>
+          <span>62-010&nbsp;Pobiedziska, ul.&nbsp;Lewandowskiego&nbsp;1</span>
+          <span>Tel:&nbsp;+48&nbsp;668&nbsp;250&nbsp;118</span>
+        </div>
+        <div class="three columns">
+          <span>© 2017 Seedmed R. Ziarnik</span>
+        </div>
       </div>
+    </div>
   </footer>
   <!-- End footer ---------------------------------------->
 
