@@ -58,6 +58,16 @@ button {
     background: white;
 }
 
+/*TO DO*/
+.sticky {
+  position: fixed !important;
+  top: 0;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
