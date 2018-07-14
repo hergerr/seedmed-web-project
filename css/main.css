@@ -58,14 +58,12 @@ button {
     background: white;
 }
 
-/*TO DO*/
 .sticky {
-  position: fixed !important;
-  top: 0;
-    background: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+    position: fixed !important;
+    top: 0;
+    margin-top: -10px;
+    margin-left: 10px;
+    padding: 4px;
 }
 
 /* Header
@@ -275,7 +273,7 @@ button {
 
 #menu {
     width: 300px;
-    margin: -123px 0 0 -140px;
+    margin: -124px 0 0 -140px;
     padding: 50px;
     padding-top: 155px;
     padding-left: 100px;

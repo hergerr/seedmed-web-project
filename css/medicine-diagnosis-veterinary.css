@@ -12,3 +12,25 @@
     text-align: justify;
     padding-left: 40px;
 }
+
+@media (max-width: 1350px)
+{
+    .five.columns, .seven.columns {
+        width: 100% !important;
+        margin: 0;
+    }
+    
+    .medicine-description img {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    
+    .medicine-description p {
+        padding-left: 0;
+    }
+    
+    .medicine-description h3 {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+}

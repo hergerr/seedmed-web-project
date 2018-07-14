@@ -1,14 +1,29 @@
 .contact-with-us {
     background-color: #f8f8f8;
-    color: inherit;
-    padding: 100px;
+    padding: 100px 0;
 }
 
-.google-map {}
+.google-map iframe {
+    width: 600px;
+    height: 400px;
+}
 
+input {
+    width: 300px;
+}
+
+.button-signup {
+    background-color: #CC1735;
+    display: block;
+    float: right;
+}
+
+.button-signup:hover {
+    background-color: #222;
+}
 
 .contact-data {
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .contact-data p {
@@ -17,4 +32,62 @@
 
 .contact-data h3 {
     text-align: left;
+}
+
+.contact-data textarea, .contact-data input {
+    width: 360px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact-data textarea:hover, .contact-data input:hover, .contact-data textarea:focus, .contact-data input:focus {
+    border-color: #bababa;
+}
+
+@media (max-width: 1460px) {
+    .contact-data .six.columns,
+    .contact-data .seven.columns,
+    .contact-data .four.columns,
+    .contact-data .three.columns,
+    .contact-data .two.columns,
+    .contact-data .one.column {
+        width: 100% !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .button-signup {
+        margin:0 auto;
+        float: none;
+    }
+    
+    .contact-data p {
+        text-align: center;
+    }
+
+    .contact-data h3 {
+        text-align: center;
+    }
+    
+    .google-map iframe {
+        margin-bottom: 30px;
+        max-width: 90%;
+    
+    }
+    
+    .contact-data {
+        text-align: center;
+    }
+    
+    .contact-data input {
+        max-width: 80%;
+    }
+    
+    .contact-data textarea {
+        max-width: 80%;
+    }
+}
+
+input {
+    
 }
