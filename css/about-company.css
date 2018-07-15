@@ -19,27 +19,31 @@
     padding: 25px;
 }
 
-.company img, .strategy img {
+.company img,
+.strategy img {
     max-width: 400px;
 }
 
-@media (max-width: 1350px)
-{
-    .five.columns, .seven.columns {
+@media (max-width: 1350px) {
+    .five.columns,
+    .seven.columns {
         width: 100% !important;
         margin: 0;
     }
 
-    .company img, .strategy img {
+    .company img,
+    .strategy img {
         margin: 0 auto;
         max-width: 80%;
     }
 
-    .company p, .strategy p {
+    .company p,
+    .strategy p {
         padding-left: 0;
     }
 
-    .company h3, .strategy h3 {
+    .company h3,
+    .strategy h3 {
         margin-top: 30px;
         padding-left: 0;
     }

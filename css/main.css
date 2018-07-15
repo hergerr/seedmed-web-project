@@ -314,7 +314,8 @@ button {
     background-color: #e4e4e4;
 }
 
-.footer span, .footer li {
+.footer span,
+.footer li {
     color: #545454;
 }
 
@@ -325,7 +326,7 @@ button {
         width: 100% !important;
     }
 
-    .footer{
+    .footer {
         text-align: center;
     }
 

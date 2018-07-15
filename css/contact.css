@@ -34,13 +34,17 @@ input {
     text-align: left;
 }
 
-.contact-data textarea, .contact-data input {
+.contact-data textarea,
+.contact-data input {
     width: 360px;
     border-radius: 20px;
     padding: 20px;
 }
 
-.contact-data textarea:hover, .contact-data input:hover, .contact-data textarea:focus, .contact-data input:focus {
+.contact-data textarea:hover,
+.contact-data input:hover,
+.contact-data textarea:focus,
+.contact-data input:focus {
     border-color: #bababa;
 }
 
@@ -58,7 +62,7 @@ input {
     }
 
     .button-signup {
-        margin:0 auto;
+        margin: 0 auto;
         float: none;
     }
 
@@ -89,6 +93,4 @@ input {
     }
 }
 
-input {
-
-}
+input {}
