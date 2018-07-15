@@ -44,6 +44,7 @@ input {
     border-color: #bababa;
 }
 
+
 @media (max-width: 1460px) {
     .contact-data .six.columns,
     .contact-data .seven.columns,
@@ -60,7 +61,7 @@ input {
         margin:0 auto;
         float: none;
     }
-    
+
     .contact-data p {
         text-align: center;
     }
@@ -68,26 +69,26 @@ input {
     .contact-data h3 {
         text-align: center;
     }
-    
+
     .google-map iframe {
         margin-bottom: 30px;
         max-width: 90%;
-    
+
     }
-    
+
     .contact-data {
         text-align: center;
     }
-    
+
     .contact-data input {
         max-width: 80%;
     }
-    
+
     .contact-data textarea {
         max-width: 80%;
     }
 }
 
 input {
-    
+
 }

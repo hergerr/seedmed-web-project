@@ -201,4 +201,25 @@
   </footer>
   <!-- End footer ---------------------------------------->
 
+
+
+  <script>
+    window.onscroll = function() {
+      stickHamburger();
+    }
+
+    var hamburger = document.getElementById("hamburger");
+
+    var sticky = hamburger.offsetTop;
+
+    function stickHamburger() {
+      if (window.pageYOffset > sticky) {
+        console.log("t");
+        hamburger.classList.add("sticky");
+      } else {
+        hamburger.classList.remove("sticky");
+      }
+    }
+  </script>
+
 </body>
