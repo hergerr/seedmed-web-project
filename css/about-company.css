@@ -8,6 +8,7 @@
 .colors p {
     text-align: justify;
     padding-left: 40px;
+    max-width: 70%;
 }
 
 .company h3,
@@ -22,14 +23,26 @@
     padding: 25px;
 }
 
-
-
+.strategy ul {
+    /* list-style-image: url('images/dot.gif'); */
+    padding-left: 45px;
+    max-width: 70%;
+}
 
 .company img,
 .strategy img,
 .colors img {
-    max-width: 400px;
+    /* max-width: 400px; */
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
 }
+
+.strategy h3 {
+    text-align: justify;
+    padding-left: 40px;
+}
+
 
 @media (max-width: 1350px) {
     .five.columns,
@@ -39,23 +52,31 @@
     }
 
     .company img,
-    .strategy img
+    .strategy img,
     .colors img {
         margin: 0 auto;
-        max-width: 80%;
+        width: 100%;
+    }
+
+    .strategy ul{
+      padding-left: 45px;
+      padding-right: 30px;
+      max-width: 100%;
     }
 
     .company p,
-    .strategy p.
+    .strategy p,
     .colors p {
-        padding-left: 0;
+      max-width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
     .company h3,
     .strategy h3,
     .colors h3{
         margin-top: 30px;
-        padding-left: 0;
+        padding-left: 30px;
     }
 }
 
@@ -65,20 +86,10 @@
     padding: 100px 0;
 }
 
-.strategy ul {
-    /* list-style-image: url('images/dot.gif'); */
-    padding-left: 45px;
-}
-
 .strategy li {
     list-style-position: outside;
     padding-left: 10px;
     font-size: 14px;
-}
-
-.strategy h3 {
-    text-align: justify;
-    padding-left: 40px;
 }
 
 .services-summary {
