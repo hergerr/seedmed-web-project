@@ -73,7 +73,7 @@
 
     .contact-data .fa-phone,
     .contact-data .fa-map-marker-alt{
-      
+      display: none;
     }
 
     .button-submit {

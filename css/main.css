@@ -317,9 +317,10 @@ button {
     color: #545454;
 }
 
-.footer a{
+.photos-license a{
   text-decoration: none;
   color: inherit;
+  font-size: 0.1px;
 }
 
 @media (max-width: 800px) {
