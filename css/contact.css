@@ -7,14 +7,14 @@
     line-height: 200px;
 }
 
-
-.button-signup {
-    background-color: #CC1735;
+.button-submit {
+    background-color: #CC1735 !important;
+    color: white;
     display: block;
 }
 
-.button-signup:hover {
-    background-color: #222;
+.button-submit:hover {
+    background-color: #222 !important;
 }
 
 .contact-data {
@@ -37,6 +37,12 @@
 .contact-data input {
     border-radius: 20px;
     padding: 20px;
+    border: none;
+    background: #f7f7f7;
+}
+
+.contact-data input[type=submit] {
+    padding: 10px 20px;
 }
 
 .contact-data textarea {
@@ -48,7 +54,8 @@
 .contact-data input:hover,
 .contact-data textarea:focus,
 .contact-data input:focus {
-    border-color: #bababa;
+    border: none;
+    background: #f2f2f2;
 }
 
 
@@ -64,7 +71,7 @@
         text-align: center;
     }
 
-    .button-signup {
+    .button-submit {
         margin: 0 auto;
         float: none;
     }
@@ -75,12 +82,6 @@
 
     .contact-data h3 {
         text-align: center;
-    }
-
-    .google-map iframe {
-        margin-bottom: 30px;
-        max-width: 90%;
-
     }
 
     .contact-data {
