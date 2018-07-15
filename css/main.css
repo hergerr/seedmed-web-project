@@ -29,8 +29,8 @@ button {
     border-radius: 30px;
     color: white;
     margin: 0 auto;
-    border: none !important;
     padding: 7px 40px;
+    transition: 0.2s background-color ease-in-out !important;
 }
 
 @media (max-width: 700px) {
@@ -43,12 +43,10 @@ button {
 .button-readmore {
     background-color: #CC1735;
     margin-top: 30px;
-    transition: 0.2s background-color ease-in-out;
 }
 
 .button-signup {
     background-color: #272727;
-    transition: 0.2s background-color ease-in-out;
 }
 
 .button-readmore:hover {
