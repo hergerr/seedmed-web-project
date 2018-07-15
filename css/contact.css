@@ -3,19 +3,10 @@
     padding: 100px 0;
 }
 
-.google-map iframe {
-    width: 600px;
-    height: 400px;
-}
-
-input {
-    width: 300px;
-}
 
 .button-signup {
     background-color: #CC1735;
     display: block;
-    float: right;
 }
 
 .button-signup:hover {
@@ -36,9 +27,13 @@ input {
 
 .contact-data textarea,
 .contact-data input {
-    width: 360px;
     border-radius: 20px;
     padding: 20px;
+}
+
+.contact-data textarea {
+    height: 100px;
+    width: 368px;
 }
 
 .contact-data textarea:hover,
@@ -90,6 +85,11 @@ input {
 
     .contact-data textarea {
         max-width: 80%;
+    }
+
+    .contact-data textarea,
+    .contact-data input {
+        width: 368px;
     }
 }
 
