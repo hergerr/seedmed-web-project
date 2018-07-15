@@ -71,6 +71,11 @@
         text-align: center;
     }
 
+    .contact-data .fa-phone,
+    .contact-data .fa-map-marker-alt{
+      
+    }
+
     .button-submit {
         margin: 0 auto;
         float: none;
