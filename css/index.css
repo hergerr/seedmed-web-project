@@ -165,8 +165,7 @@
 }
 
 .newsletter button:hover {
-    margin-top: 20px;
-    color: #CC1735;
+    background-color: #B41530;
 }
 
 .input-email {

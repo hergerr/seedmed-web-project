@@ -43,10 +43,12 @@ button {
 .button-readmore {
     background-color: #CC1735;
     margin-top: 30px;
+    transition: 0.2s background-color ease-in-out;
 }
 
 .button-signup {
     background-color: #272727;
+    transition: 0.2s background-color ease-in-out;
 }
 
 .button-readmore:hover {
@@ -55,7 +57,7 @@ button {
 }
 
 .button-signup:hover {
-    background: white;
+    background-color: #B41530;
 }
 
 .sticky {
@@ -138,10 +140,15 @@ button {
     height: 135px;
 }
 
+.header-logo {
+    width: 60px;
+}
+
 .header-logo img {
     height: 80px;
     position: absolute;
     top: 18%;
+    z-index: 100;
 }
 
 .header-nav ul {
@@ -155,11 +162,12 @@ button {
         height: 0px;
     }
 
-    .header-logo img {
+    .header-logo {
         position: static;
         margin: 0 auto;
         display: block;
-        padding: 30px
+        padding: 30px;
+        height: 75px;
     }
 
     .header-nav ul {
