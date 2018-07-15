@@ -1,9 +1,13 @@
-.collaborating-companies {
-    background-color: #f8f8f8;
-    color: inherit;
-    padding: 100px;
+.customer-logos {
+    margin: 100px 0px 120px 0px;
+
 }
 
-.customer-logos {
-    margin: 200px 0px 200px 0px;
+.collaborating-companies {
+    background-color: #f8f8f8;
+    height: 200px;
+}
+
+.collaborating-companies h4 {
+    line-height: 200px;
 }
