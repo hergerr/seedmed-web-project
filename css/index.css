@@ -56,23 +56,27 @@
 
 .hero-boxes {
     margin-top: 10%;
+    overflow: hidden;
 }
 
 .hero-box {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     background-color: #CC1735;
-    border-radius: 10px;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 800px) {
     .hero-box {
-        margin-top: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
     }
 }
 
 .hero-box button {
     background-color: #B41530;
     display: block;
+    margin-bottom: 20px;
 }
 
 .hero-box a {
