@@ -95,16 +95,17 @@
     font-size: 24px;
     color: #363636;
     margin-bottom: 80px;
+    
 }
 
 .offer h3 {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 18px;
     height: 40px;
 }
 
 .offer p {
-    font-size: 12px;
+    font-size: 14px;
     color: #6A6A6A;
 }
 
@@ -113,13 +114,15 @@
     border-radius: 100%;
     width: 128px;
     height: 128px;
-    background-color: #eaeaea;
+    border: 3px solid #f7f7f7;
+    background-color: #f7f7f7;
     position: relative;
 }
 
 .icon-circle i {
     text-align: right;
     position: absolute;
+    box-shadow: none;
 }
 
 .icon-1 {

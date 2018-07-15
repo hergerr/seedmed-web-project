@@ -1,6 +1,6 @@
 .company {
     background-color: #f8f8f8;
-    padding: 25px;
+    padding: 100px 0;
 }
 
 .company p {
@@ -51,6 +51,10 @@
 
 /* TODO */
 
+.strategy {
+    padding: 100px 0;
+}
+
 .strategy ul {
     /* list-style-image: url('images/dot.gif'); */
     padding-left: 45px;
@@ -68,11 +72,16 @@
 }
 
 .services-summary {
-    padding: 80px;
+    padding: 30px;
     color: white;
     background-color: #CC1735;
 }
 
 .services-summary p {
-    text-align: center;
+    line-height: 14px;
+    opacity: 0.8;
+}
+
+.services-summary .container {
+    width: 500px;
 }
