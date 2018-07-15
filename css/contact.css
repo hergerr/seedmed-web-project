@@ -1,6 +1,10 @@
 .contact-with-us {
     background-color: #f8f8f8;
-    padding: 100px 0;
+    height: 200px;
+}
+
+.contact-with-us h4 {
+    line-height: 200px;
 }
 
 
@@ -23,6 +27,10 @@
 
 .contact-data h3 {
     text-align: left;
+}
+
+.contact-data h4 {
+    line-height: 400px;
 }
 
 .contact-data textarea,
@@ -92,5 +100,3 @@
         width: 368px;
     }
 }
-
-input {}
