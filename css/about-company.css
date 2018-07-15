@@ -1,14 +1,17 @@
-.company {
+.company,
+.colors {
     background-color: #f8f8f8;
     padding: 100px 0;
 }
 
-.company p {
+.company p,
+.colors p {
     text-align: justify;
     padding-left: 40px;
 }
 
-.company h3 {
+.company h3,
+.colors h3 {
     text-align: justify;
     padding-left: 40px;
 }
@@ -19,8 +22,12 @@
     padding: 25px;
 }
 
+
+
+
 .company img,
-.strategy img {
+.strategy img,
+.colors img {
     max-width: 400px;
 }
 
@@ -32,18 +39,21 @@
     }
 
     .company img,
-    .strategy img {
+    .strategy img
+    .colors img {
         margin: 0 auto;
         max-width: 80%;
     }
 
     .company p,
-    .strategy p {
+    .strategy p.
+    .colors p {
         padding-left: 0;
     }
 
     .company h3,
-    .strategy h3 {
+    .strategy h3,
+    .colors h3{
         margin-top: 30px;
         padding-left: 0;
     }
