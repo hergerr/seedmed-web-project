@@ -58,14 +58,6 @@ button {
     background-color: #B41530;
 }
 
-.sticky {
-    position: fixed !important;
-    top: 0;
-    margin-top: -10px;
-    margin-left: 10px;
-    padding: 4px;
-}
-
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -191,9 +183,11 @@ button {
 }
 
 .header-nav-hamburger {
-    position: absolute;
+    position: fixed !important;
     top: 5%;
-    left: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 4px;
     z-index: 100;
     display: none;
 }
@@ -201,6 +195,13 @@ button {
 @media (max-width: 920px) {
     .header-nav-hamburger {
         display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-nav-hamburger {
+        top: 10px;
+        left: 3%;
     }
 }
 
@@ -212,6 +213,16 @@ button {
 
 .header-nav-hamburger a:hover {
     color: #CC1735;
+}
+
+.hamburger-circle {
+    position: absolute;
+    border-radius: 100%;
+    top: -16px;
+    left: -11px;
+    width: 55px;
+    height: 55px;
+    background-color: white;
 }
 
 #menuToggle {
