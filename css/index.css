@@ -29,6 +29,14 @@
         background-color: #B41530 !important;
     }
     
+    .second-box button {
+        background-color: #CC1735 !important;
+    }
+    
+        .second-box button:hover {
+        background-color: #363636 !important;
+    }
+    
     .hero-boxes .one-third.column {
         width: 100% !important;
         margin-left: 0;
