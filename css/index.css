@@ -147,6 +147,14 @@
     box-shadow: 0px -15px 30px #efefef;
 }
 
+@media (max-width: 1000px) {
+    .offer .one-third.column {
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
 .offer h2 {
     font-size: 24px;
     color: #363636;
