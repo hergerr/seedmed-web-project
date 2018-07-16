@@ -44,9 +44,8 @@
 }
 
 
-@media (max-width: 1350px) {
-    .five.columns,
-    .seven.columns {
+@media (max-width: 1000px) {
+    .six.columns{
         width: 100% !important;
         margin: 0;
     }
