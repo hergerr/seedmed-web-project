@@ -61,9 +61,6 @@
 
 @media (max-width: 1460px) {
     .contact-data .six.columns,
-    .contact-data .seven.columns,
-    .contact-data .four.columns,
-    .contact-data .three.columns,
     .contact-data .two.columns,
     .contact-data .one.column {
         width: 100% !important;
@@ -71,8 +68,7 @@
         text-align: center;
     }
 
-    .contact-data .fa-phone,
-    .contact-data .fa-map-marker-alt{
+    .contact-data i{
       display: none;
     }
 
