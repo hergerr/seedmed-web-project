@@ -11,7 +11,7 @@
 }
 
 .image-overlay {
-    height: 99%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -21,7 +21,6 @@
     background: -webkit-linear-gradient(0deg, rgba(10, 10, 10, 1) 0%, rgba(255, 255, 255, 0) 47%);
     background: linear-gradient(0deg, rgba(10, 10, 10, 1) 0%, rgba(255, 255, 255, 0) 47%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0a0a", endColorstr="#ffffff", GradientType=1);
-    opacity: 0.7;
     z-index: 50;
 }
 
@@ -59,7 +58,6 @@
 
     .hero-box {
         margin-top: 0;
-        border-radius: 0 !important;
         box-shadow: none !important;
     }
 
@@ -120,7 +118,7 @@
 }
 
 .hero p {
-    color: #f7f7f7;
+    color: #edecec;
 }
 
 .hero-boxes {
@@ -130,7 +128,6 @@
 .hero-box {
     padding: 20px 20px 20px 20px;
     background-color: #CC1735;
-    border-radius: 10px;
     box-shadow: 10px 10px 20px rgba( 0, 0, 0, 0.314 );
 }
 
