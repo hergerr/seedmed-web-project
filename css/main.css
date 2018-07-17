@@ -30,7 +30,7 @@ button {
     color: white;
     margin: 0 auto;
     padding: 7px 40px;
-    transition: 0.2s background-color ease-in-out !important;
+    transition: 0.2s background-color ease-in-out;
 }
 
 @media (max-width: 700px) {
