@@ -132,7 +132,7 @@
 }
 
 .hero .second-box button {
-    background-color: #E51D3E;
+    background-color: #B41530;
 }
 
 .hero .second-box button:hover {
@@ -144,7 +144,6 @@
 }
 
 .hero-box button {
-    box-sizing: border-box;
     display: block;
     margin-bottom: 20px;
 }
