@@ -10,6 +10,11 @@
     overflow: hidden;
 }
 
+.hero-slider img {
+    filter: grayscale(30%);
+    -webkit-filter: grayscale(30%);
+}
+
 .flex {
     display: -webkit-box;
     display: -webkit-flex;
