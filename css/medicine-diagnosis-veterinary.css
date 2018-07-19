@@ -4,44 +4,107 @@
 }
 
 .medicine-description p {
-    text-align: justify;
+    text-align: left;
     padding-left: 40px;
 }
 
 .medicine-description h3 {
-    text-align: justify;
+    text-align: left;
     padding-left: 40px;
 }
 
 /* vertical sidemenu */
 
 .downloadable{
-  color: white;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0;
 }
 
 .vertical-menu {
-    width: 140px;
-
 }
 
 .vertical-menu a {
-    background-color: #f8f8f8;
     display: block;
-    padding: 5px;
+    padding: 7px 0 7px 20px;
     text-decoration: none;
-    color: black;
-    border: solid  1px grey;
-    border
+    color: #363636;
+    border: solid 1px #eaeaea;
+    border-bottom: none;
+}
+
+.vertical-menu a:last-of-type {
+    border-bottom: solid 1px #eaeaea;
 }
 
 .vertical-menu a:hover {
-    /* background-color: #ccc; */
-    color: #cc1735;
+    background-color: #cc1735;
+    color: white;
 }
 
-.pdf-icon{
+.files {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.file {
+    margin: 0 30px 30px 0;
+    height: auto;
+    width: 45%;
+}
+
+@media (max-width: 1300px) {    
+    .file {
+        margin: 30px 0;
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .file {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .file {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .files {
+        margin-top: 70px;
+    }
+}
+
+.file p {
+    text-align: left;
+    opacity: 0.9;
+}
+
+.file a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #363636;
+}
+
+.file p {
+    margin-top: 15px;
+}
+
+.icon img {
+    float: left;
+}
+
+.description {
+    margin-left: 80px;
+}
+
+.description a:hover {
+    color: #cc1735;
+    text-decoration: underline dashed #cc1735;
+}
+
 
 
 @media (max-width: 1350px) {
