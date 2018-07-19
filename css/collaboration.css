@@ -11,3 +11,37 @@
 .collaborating-companies h4 {
     line-height: 200px;
 }
+
+p{
+  text-align: justify;
+}
+
+.company-description{
+  margin-top: 150px;
+}
+
+.company-logo{
+  background-color: #f8f8f8;
+  border-radius: 30px;
+}
+
+@media (max-width: 1000px) {
+  .company-description .six.columns,
+  .company-description .four.columns{
+    width: 100%;
+  }
+
+  .company-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 15px;
+  }
+
+  .company-description{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
