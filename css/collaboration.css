@@ -17,7 +17,7 @@ p{
 }
 
 .company-description{
-  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .company-logo{
@@ -29,7 +29,7 @@ p{
   text-decoration: none;
   width: 64px;
   height: 64px;
-  background: red;
+  background: #cc1735;
   position: fixed;
   right: 50px;
   bottom: 50px;

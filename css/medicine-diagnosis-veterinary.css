@@ -27,12 +27,11 @@
 
 .vertical-menu a {
     background-color: #f8f8f8;
-    /* display: block; */
+    display: block;
     padding: 5px;
     text-decoration: none;
     color: black;
     border: solid  1px grey;
-    border-bottom: 0.5px;
     border
 }
 
@@ -42,7 +41,6 @@
 }
 
 .pdf-icon{
-  display: grid;
 }
 
 
