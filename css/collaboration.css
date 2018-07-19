@@ -34,6 +34,7 @@ p{
   right: 50px;
   bottom: 50px;
   border-radius: 10px;
+  z-index: 2;
   display: none;
 }
 
