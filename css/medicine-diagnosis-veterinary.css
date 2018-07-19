@@ -13,6 +13,39 @@
     padding-left: 40px;
 }
 
+/* vertical sidemenu */
+
+.downloadable{
+  color: white;
+  padding: 100px 0px 100px 0px;
+}
+
+.vertical-menu {
+    width: 140px;
+
+}
+
+.vertical-menu a {
+    background-color: #f8f8f8;
+    /* display: block; */
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid  1px grey;
+    border-bottom: 0.5px;
+    border
+}
+
+.vertical-menu a:hover {
+    /* background-color: #ccc; */
+    color: #cc1735;
+}
+
+.pdf-icon{
+  display: grid;
+}
+
+
 @media (max-width: 1350px) {
     .five.columns,
     .seven.columns {
