@@ -25,6 +25,25 @@ p{
   border-radius: 30px;
 }
 
+.scroll {
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+  background: red;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 10px;
+  display: none;
+}
+
+.scroll i{
+  text-decoration: none;
+  color: white;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
 @media (max-width: 1000px) {
   .company-description .six.columns,
   .company-description .four.columns{
@@ -43,5 +62,13 @@ p{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .scroll {
+    right: 25px;
+    bottom: 25px;
+    /* width: 40px;
+    height: 40px; */
+    background: red;
   }
 }

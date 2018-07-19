@@ -131,6 +131,8 @@
       </div>
     </div>
 
+    <a href="#" class="scroll"><i class="fas fa-arrow-up  fa-3x"></i></a>
+
     <div class="container">
       <div class="company-description row">
         <div class="four columns">
@@ -405,7 +407,17 @@
 				$.scrollTo($('#logo9'), 6000);
 			});
 
+      $('.scroll').click(function() {
+        $.scrollTo($('#link1'), 2000);
+      });
+
 		});
+
+    $(window).scroll(function() {
+			if ($(this).scrollTop() > 300) $('.scroll').fadeIn();
+			else $('.scroll').fadeOut();
+		});
+
 	</script>
 
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
