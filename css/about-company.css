@@ -6,19 +6,19 @@
 
 .company p,
 .colors p {
-    text-align: justify;
+    text-align: left;
     padding-left: 40px;
     max-width: 70%;
 }
 
 .company h3,
 .colors h3 {
-    text-align: justify;
+    text-align: left;
     padding-left: 40px;
 }
 
 .strategy {
-    text-align: justify;
+    text-align: left;
     background-color: white;
     padding: 25px;
 }
@@ -39,7 +39,7 @@
 }
 
 .strategy h3 {
-    text-align: justify;
+    text-align: left;
     padding-left: 40px;
 }
 

@@ -339,6 +339,7 @@ button {
     .footer .two.columns,
     .footer .one.column {
         width: 100% !important;
+        margin: 0;
     }
 
     .footer {
@@ -370,8 +371,6 @@ button {
         display: none;
     }
 }
-
-.footer-nav {}
 
 .footer-nav li {
     list-style: none;

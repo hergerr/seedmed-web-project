@@ -132,14 +132,6 @@
     box-shadow: 10px 10px 20px rgba( 0, 0, 0, 0.314);
 }
 
-.hero .first-box {
-    background-color: #E51D3E;
-}
-
-.hero .second-box button {
-    background-color: #B41530;
-}
-
 .hero .second-box button:hover {
     background-color: #363636;
 }
@@ -151,6 +143,7 @@
 .hero-box button {
     display: block;
     margin-bottom: 20px;
+    background-color: #9f2727;
 }
 
 .hero-box a {
