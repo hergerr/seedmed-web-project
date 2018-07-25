@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero-slider {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-slider img {
+    filter: grayscale(30%);
+    -webkit-filter: grayscale(30%);
+}
+
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.flex .hero-box {
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+
+@media (max-width: 480px) {
+    .hero-slider {
+        height: 800px !important;
+    }
+
+    .flex .hero-box {
+        max-width: 100%;
+    }
+
+    .flex .hero-box {
+        margin: 0;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1000px) {
+    .flex .hero-box {
+        padding: 0;
+        margin: 0;
+    }
+
+    .flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .slider {
+        display: none;
+    }
+
+    .image-overlay {
+        display: none;
+    }
+
+    .hero-box {
+        margin-top: 0;
+        box-shadow: none !important;
+    }
+
+    .hero-slider .container {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .flex .hero-box {
+        max-width: 31%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .flex {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-slider {
+        height: 700px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flex {
+        margin-top: 40%;
+    }
+}
+
+.hero {
+    width: 100%;
+    position: absolute;
+    z-index: 80;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero h3 {
+    color: white;
+    margin-top: 5%;
+}
+
+.hero p {
+    color: #edecec;
+    padding: 0 5%;
+}
+
+.hero-box {
+    padding: 20px 20px 20px 20px;
+    background-color: #CC1735;
+    box-shadow: 10px 10px 20px rgba( 0, 0, 0, 0.314);
+}
+
+.hero .second-box button:hover {
+    background-color: #363636;
+}
+
+.hero .third-box {
+    background-color: #B41530;
+}
+
+.hero-box button {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #F21A3E;
+}
+
+.hero-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.slider-photo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+/* Offer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.offer {
+    margin-bottom: 140px;
+}
+
+.offer-box {
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px -15px 30px #efefef;
+}
+
+@media (max-width: 1000px) {
+    .offer .one-third.column {
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+.offer h2 {
+    font-size: 24px;
+    color: #363636;
+    margin-bottom: 80px;
+
+}
+
+.offer h3 {
+    margin-top: 50px;
+    font-size: 18px;
+    height: 40px;
+}
+
+.offer p {
+    font-size: 14px;
+    color: #6A6A6A;
+}
+
+.icon-circle {
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    border: 3px solid #f7f7f7;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.icon-circle i {
+    position: absolute;
+}
+
+.icon-1 {
+    top: 34%;
+    left: 31%;
+}
+
+.icon-2 {
+    top: 34%;
+    left: 33%;
+}
+
+.icon-3 {
+    top: 34%;
+    left: 29%;
+}
+
+
+/* Newsletter
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.newsletter {
+    margin-top: 80px;
+    background-color: #CC1735;
+    padding: 30px;
+}
+
+.newsletter h4,
+.newsletter p {
+    color: white;
+}
+
+.newsletter h4 {
+    font-size: 24px;
+}
+
+.newsletter input {
+    margin: 0 auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.newsletter input[type=email]:hover,
+.newsletter input[type=email]:focus {
+    border: none;
+    background: #f2f2f2;
+}
+
+.newsletter input[type=submit] {
+    margin-top: 20px;
+    display: block;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+}
+
+.newsletter button:hover {
+    background-color: #B41530;
+}
+
+.input-email {
+    width: 400px;
+}
+
+@media (max-width: 550px) {
+    .input-email {
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .input-email {
+        width: 200px;
+    }
+}
