@@ -1,0 +1,108 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.company,
+.colors {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+.company p,
+.colors p {
+    text-align: left;
+    max-width: 70%;
+}
+
+.company h3,
+.colors h3 {
+    text-align: left;
+}
+
+.strategy {
+    text-align: left;
+    background-color: white;
+    padding: 25px;
+}
+
+.strategy ul {
+    padding-left: 45px;
+    max-width: 70%;
+}
+
+.company img,
+.strategy img,
+.colors img {
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.strategy h3 {
+    text-align: left;
+}
+
+
+@media (max-width: 1100px) {
+    .six.columns{
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .company img,
+    .strategy img,
+    .colors img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .strategy ul{
+      padding-left: 45px;
+      padding-right: 30px;
+      max-width: 100%;
+    }
+
+    .company p,
+    .strategy p,
+    .colors p {
+      max-width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .company h3,
+    .strategy h3,
+    .colors h3{
+        margin-top: 30px;
+
+    }
+}
+
+.strategy {
+    padding: 100px 0;
+}
+
+.strategy li {
+    list-style-position: outside;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.services-summary {
+    padding: 30px;
+    color: white;
+    background-color: #CC1735;
+}
+
+.services-summary p {
+    line-height: 14px;
+    opacity: 0.8;
+}
+
+.services-summary .container {
+    max-width: 500px;
+}
