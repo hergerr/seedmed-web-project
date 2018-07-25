@@ -1,5 +1,10 @@
 <?php /* Template Name: wspolpraca */ ?>
 
+<?php
+
+get_header();
+
+?>
 
 <section>
     <div class="collaborating-companies">
@@ -13,15 +18,7 @@
         <div class="twelve columns">
             <div class="container">
                 <section class="customer-logos slider">
-                    <div class="slide"><a id="link1" href="#"><img src="images/logos/barco.png" alt="barco logo"></a></div>
-                    <div class="slide"><a id="link2" href="#"><img src="images/logos/hemocue.png" alt="hemocue logo"></a></div>
-                    <div class="slide"><a id="link3" href="#"><img src="images/logos/allium.png" alt="allium logo"></a></div>
-                    <div class="slide"><a id="link4" href="#"><img src="images/logos/hiwin.png" alt="hivin logo"></a></div>
-                    <div class="slide"><a id="link5" href="#"><img src="images/logos/mermaid.png" alt="mermaid medical logo"></a></div>
-                    <div class="slide"><a id="link6" href="#"><img src="images/logos/misconvey.png" alt="miconvey logo"></a></div>
-                    <div class="slide"><a id="link7" href="#"><img src="images/logos/scion.png" alt="scion logo"></a></div>
-                    <div class="slide"><a id="link8" href="#"><img src="images/logos/sterylab.png" alt="sterylab logo"></a></div>
-                    <div class="slide"><a id="link9" href="#"><img src="images/logos/vims.png" alt="vims logo"></a></div>
+                    <?php echo do_shortcode("[ed-logo id='160']"); ?>
                 </section>
             </div>
         </div>
@@ -172,3 +169,9 @@
 
     </div>
 </section>
+
+<?php
+
+get_footer();
+
+?>
