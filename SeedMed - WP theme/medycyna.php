@@ -1,3 +1,6 @@
+<?php /* Template Name: medycyna */ ?>
+
+
 <section class="medicine-description">
     <div class="container">
         <div class="row">

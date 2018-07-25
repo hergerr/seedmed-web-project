@@ -1,3 +1,5 @@
+<?php /* Template Name: kontakt */ ?>
+
 <section class="contact-with-us">
     <div class="row">
         <div class="twelve columns">
