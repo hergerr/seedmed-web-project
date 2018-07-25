@@ -1,37 +1,45 @@
 <?php /* Template Name: kontakt */ ?>
 
-<section class="contact-with-us">
-    <div class="row">
-        <div class="twelve columns">
-            <h4 class="reveal">Kontakt z nami</h4>
-        </div>
-    </div>
-</section>
+<?php
+ 
+get_header();
 
-<section class="contact-data">
-    <div class="container">
+?>
+
+
+    <section class="contact-with-us">
         <div class="row">
-            <div class="offset-by-two two columns">
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>Adres</h3>
-                <p>ul. Lewandowskiego 1<br> 62-010 Pobiedziska<br> Polska
-                </p>
-            </div>
-            <div class="two columns">
-                <i class="fas fa-phone"></i>
-                <h3>Telefon</h3>
-                <p>+48&nbsp;668&nbsp;250&nbsp;118</p>
-            </div>
-
-            <div class="six columns">
-                <form>
-                    <div><input type="text" name="name" placeholder="Imię i nazwisko"></div>
-                    <div><input type="email" name="e-mail" placeholder="Email"></div>
-                    <div><input type="text" name="subject" placeholder="Temat"></div>
-                    <textarea placeholder="Wiadomość"></textarea>
-                    <input type="submit" class="button-submit">
-                </form>
+            <div class="twelve columns">
+                <h4 class="reveal"><?php the_field('naglowek'); ?></h4>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section class="contact-data">
+        <div class="container">
+            <div class="row">
+                <div class="offset-by-two two columns">
+                    <h3>Adres</h3>
+                    <p><?php the_field('adres'); ?></p>
+                </div>
+                <div class="two columns">
+                    <h3>Telefon</h3>
+                    <p><?php the_field('telefon'); ?></p>
+                </div>
+
+                <div class="six columns">
+                    <h3>Formularz kontaktowy</h3>
+                    <?php the_content(); ?>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <?php
+
+get_footer();
+ 
+?>
