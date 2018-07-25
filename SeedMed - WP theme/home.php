@@ -6,6 +6,12 @@ get_header();
 
 ?>
 
+<?php
+
+the_content();
+
+?>
+
 <section class="hero-slider">
     <div id="slider">
         <div class="slides">
