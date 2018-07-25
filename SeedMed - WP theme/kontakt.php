@@ -29,7 +29,7 @@ get_header();
 
                 <div class="six columns">
                     <h3>Formularz kontaktowy</h3>
-                    <?php the_content(); ?>
+                    <?php echo do_shortcode("[contact-form-7 id=\"110\" title=\"Formularz kontaktowy\"]"); ?>
                 </div>
             </div>
         </div>

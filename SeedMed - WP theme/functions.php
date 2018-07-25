@@ -44,3 +44,4 @@ function wpse_enqueue_page_template_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' );
+add_theme_support( 'post-thumbnails' );
