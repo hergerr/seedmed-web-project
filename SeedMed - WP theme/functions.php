@@ -35,8 +35,8 @@ function wpse_enqueue_page_template_styles() {
         wp_enqueue_style( 'weterynaria', get_template_directory_uri() . '/assets/css/weterynaria.css' );
     }
 
-    if ( is_page_template( 'współpraca.php' ) ) {
-        wp_enqueue_style( 'współpraca', get_template_directory_uri() . '/assets/css/wspolpraca.css' );
+    if ( is_page_template( 'wspolpraca.php' ) ) {
+        wp_enqueue_style( 'wspolpraca', get_template_directory_uri() . '/assets/css/wspolpraca.css' );
     }
 
     if ( is_page_template( 'kontakt.php' ) ) {
