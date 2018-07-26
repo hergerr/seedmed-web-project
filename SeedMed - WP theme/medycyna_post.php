@@ -22,9 +22,10 @@
 	</div>
 	<!-- 	This outputs the post EXCERPT.  To display full content including images and html,
 		replace the_excerpt(); with the_content();  below. -->
-	<div class="entry-summary">
-		<div class="description">
-				<?php the_content(); ?>
+
+	<div class="description">
+		<div class="entry-summary">
+			<?php the_content(); ?>
 		</div>
 	</div>
 </div>
