@@ -130,21 +130,18 @@ the_content();
 <!-- Newsletter
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <section class="newsletter">
-    <div class="tnp tnp-subscription">
         <div class="container">
             <form method="post" action="http://seedmed.pl/?na=s" onsubmit="return newsletter_check(this)">
                 <h4>Zapisz się na newsletter</h4>
                 <p>Jeśli potrzebujesz więcej informacji zapytaj. Chętnie Tobie pomożemy.</p>
                 <input type="hidden" name="nlang" value="">
 
-                <div style="text-align: center;" class="tnp-field tnp-field-email">
-                    <input class="tnp-email input-email reveal" type="email" name="ne" placeholder="e-mail" required>
+                <div style="text-align: center;">
+                    <input class="input-email reveal" type="email" name="ne" placeholder="e-mail" required>
                 </div>
-                <div class="tnp-field tnp-field-button"><input style="margin: 0 auto;" class="button-signup tnp-submit" type="submit" value="Subskrybuj">
-                </div>
+                <input class="button-signup" type="submit" value="Subskrybuj">
             </form>
         </div>
-    </div>
 </section>
 
 <?php
