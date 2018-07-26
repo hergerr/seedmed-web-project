@@ -11,8 +11,9 @@
 	directory so your changes won't be overwritten when the plugin is upgraded. -->
 
 <!-- Post Wrap Start-->
+<div class="file">
 <div class="post hentry ivycat-post">
-	<div class="file">
+
 
 	<!-- 	This outputs the post TITLE -->
 	<div class="icon">
