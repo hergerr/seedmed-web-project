@@ -37,50 +37,7 @@ get_header();
             </div>
             <div class="nine columns">
                 <div class="files">
-                    <div class="file">
-                        <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
-                        </div>
-                        <div class="description">
-                            <a href="#">File name</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum debitis quasi nesciunt provident repellat, sed ipsam.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="file">
-                        <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
-                        </div>
-                        <div class="description">
-                            <a href="#">File name</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum debitis quasi nesciunt provident repellat, sed ipsam, autem suscipit dolor facere natus delectus magni!
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="file">
-                        <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
-                        </div>
-                        <div class="description">
-                            <a href="#">File name</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="file">
-                        <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
-                        </div>
-                        <div class="description">
-                            <a href="#">File name</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum debitis quasi nesciunt provident repellat, sed ipsam, autem suscipit dolor.
-                            </p>
-                        </div>
-                    </div>
-
+                    <?php echo do_shortcode("[ic_add_posts category='medycyna' template='medycyna_post.php']"); ?>
                 </div>
             </div>
         </div>
