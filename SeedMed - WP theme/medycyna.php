@@ -39,7 +39,7 @@ get_header();
                 <div class="files">
                     <div class="file">
                         <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon">
+                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
                         </div>
                         <div class="description">
                             <a href="#">File name</a>
@@ -50,7 +50,7 @@ get_header();
 
                     <div class="file">
                         <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon">
+                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
                         </div>
                         <div class="description">
                             <a href="#">File name</a>
@@ -61,7 +61,7 @@ get_header();
 
                     <div class="file">
                         <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon">
+                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
                         </div>
                         <div class="description">
                             <a href="#">File name</a>
@@ -72,7 +72,7 @@ get_header();
 
                     <div class="file">
                         <div class="icon">
-                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon">
+                            <img class="u-max-full-width" src="http://seedmed.pl/wp-content/uploads/2018/07/pdf.png" alt="pdf icon" width="70">
                         </div>
                         <div class="description">
                             <a href="#">File name</a>
