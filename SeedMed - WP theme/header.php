@@ -5,12 +5,8 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <title>
-        <?php bloginfo( 'name' ); ?>
-    </title>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="<?php bloginfo('description'); ?>" />
+    <title><?php wp_title(); ?></title>
 
     <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
