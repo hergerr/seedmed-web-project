@@ -25,15 +25,15 @@ function wpse_enqueue_page_template_styles() {
     }
 
     if ( is_page_template( 'medycyna.php' ) ) {
-        wp_enqueue_style( 'medycyna', get_template_directory_uri() . '/assets/css/medycyna.css' );
+        wp_enqueue_style( 'medycyna', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.css' );
     }
 
     if ( is_page_template( 'diagnostyka.php' ) ) {
-        wp_enqueue_style( 'diagnostyka', get_template_directory_uri() . '/assets/css/diagnostyka.css' );
+        wp_enqueue_style( 'diagnostyka', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.css' );
     }
 
     if ( is_page_template( 'weterynaria.php' ) ) {
-        wp_enqueue_style( 'weterynaria', get_template_directory_uri() . '/assets/css/weterynaria.css' );
+        wp_enqueue_style( 'weterynaria', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.css' );
     }
 
     if ( is_page_template( 'wspolpraca.php' ) ) {
