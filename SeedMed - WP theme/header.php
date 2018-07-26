@@ -28,7 +28,7 @@
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="http://seedmed.pl/wp-content/uploads/2018/07/favicon-1.png">
-    
+
     <?php wp_head() ?>
 </head>
 
