@@ -2,6 +2,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: #cc1735;
+}
+
 .contact-with-us {
     background-color: #f8f8f8;
     height: 200px;
@@ -68,7 +77,6 @@ body {
     background: #f2f2f2;
 }
 
-
 @media (max-width: 900px) {
     .contact-data .six.columns,
     .contact-data .two.columns,
@@ -108,7 +116,7 @@ body {
     }
 
     .contact-data textarea,
-    .contact-data input[type=text], 
+    .contact-data input[type=text],
     .contact-data input[type=email] {
         width: 368px;
     }

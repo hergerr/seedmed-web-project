@@ -33,6 +33,7 @@ get_header();
                 <div class="six columns">
                     <h3>Formularz kontaktowy</h3>
                     <?php echo do_shortcode("[contact-form-7 id=\"110\" title=\"Formularz kontaktowy\"]"); ?>
+                    <a href="http://seedmed.pl/wp-content/uploads/2018/07/Regulamin_rodo.pdf" target="_blank">Więcej informacji o RODO</a>
                 </div>
             </div>
         </div>
