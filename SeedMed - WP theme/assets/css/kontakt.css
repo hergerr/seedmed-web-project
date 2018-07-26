@@ -54,7 +54,6 @@ a:hover{
 
 .contact-data textarea,
 .contact-data input {
-    border-radius: 20px;
     padding: 20px;
     border: none;
     background: #f7f7f7;
@@ -62,6 +61,8 @@ a:hover{
 
 .contact-data input[type=submit] {
     padding: 10px 30px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
 }
 
 .contact-data textarea {
@@ -78,16 +79,10 @@ a:hover{
 }
 
 @media (max-width: 900px) {
-    .contact-data .six.columns,
-    .contact-data .two.columns,
-    .contact-data .one.column {
+    .contact-data .four.columns {
         width: 100% !important;
         margin: 0 auto;
         text-align: center;
-    }
-
-    .contact-data i{
-      display: none;
     }
 
     .button-submit {
@@ -120,9 +115,4 @@ a:hover{
     .contact-data input[type=email] {
         width: 368px;
     }
-}
-
-.contact-data i {
-    float: left;
-    padding: 5px 10px 0 0;
 }
