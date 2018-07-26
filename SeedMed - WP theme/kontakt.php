@@ -1,7 +1,7 @@
 <?php /* Template Name: kontakt */ ?>
 
 <?php
- 
+
 get_header();
 
 ?>
@@ -10,7 +10,7 @@ get_header();
     <section class="contact-with-us">
         <div class="row">
             <div class="twelve columns">
-                <h4 class="reveal"><?php the_field('naglowek'); ?></h4>
+                <h4 class="reveal">Kontakt z nami</h4>
             </div>
         </div>
     </section>
@@ -20,11 +20,14 @@ get_header();
             <div class="row">
                 <div class="offset-by-two two columns">
                     <h3>Adres</h3>
-                    <p><?php the_field('adres'); ?></p>
+                    <p>ul. Lewandowskiego 1<br> 62-010 Pobiedziska<br> Polska</p>
+                    <h3>Dane firmy</h3>
+                    <p>NIP: 764-11-98-531<br>
+                    REGON: 366707664</p>
                 </div>
                 <div class="two columns">
                     <h3>Telefon</h3>
-                    <p><?php the_field('telefon'); ?></p>
+                    <p>+48&nbsp;668&nbsp;250&nbsp;118</p>
                 </div>
 
                 <div class="six columns">
@@ -41,5 +44,5 @@ get_header();
     <?php
 
 get_footer();
- 
+
 ?>

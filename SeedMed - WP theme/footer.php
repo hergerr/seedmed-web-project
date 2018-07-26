@@ -27,15 +27,16 @@
             </div>
 
             <div class="three columns">
-                <h6>Skontaktuj się z nami:</h6>
-                <span>62-010&nbsp;Pobiedziska, ul.&nbsp;Lewandowskiego&nbsp;1</span>
-                <span>Tel:&nbsp;+48&nbsp;668&nbsp;250&nbsp;118</span>
+                <h6>Skontaktuj się&nbsp;z&nbsp;nami:</h6>
+                <span>62&nbsp;-&nbsp;010&nbsp;Pobiedziska,ul.&nbsp;Lewandowskiego&nbsp;1</span>
+                <span>Tel:&nbsp;+48&nbsp;668&nbsp;250&nbsp;118<br><br></span>
+                <span>NIP: 764-11-98-531<br></span>
+                <span>REGON: 366707664</span>
             </div>
 
             <div class="three columns">
                 <span>© 2017 Seedmed R. Ziarnik</span>
             </div>
-
         </div>
 
         <div class="row">
