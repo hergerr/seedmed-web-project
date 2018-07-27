@@ -5,14 +5,18 @@
 
 .medicine-description p {
     text-align: left;
-    padding-left: 40px;
+    max-width: 70%;
 }
 
 .medicine-description h3 {
     text-align: left;
-    padding-left: 40px;
 }
 
+.medicine-description img{
+  width: 80%;
+  height: auto;
+  margin-left: 100px;
+}
 /* vertical sidemenu */
 
 .downloadable{
@@ -60,9 +64,28 @@
 
 
 @media (max-width: 1100px) {
+  .six.columns{
+      width: 100% !important;
+      margin: 0;
+  }
+  .medicine-description p {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .medicine-description h3 {
+      margin-top: 30px;
+      padding-left: 30px;
+  }
     .file {
         width: 90%;
     }
+    .medicine-description img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -105,29 +128,7 @@
     text-decoration: #cc1735;
 }
 
-.medicine-description img{
-  margin-left: 100px;
-}
-
 
 @media (max-width: 1350px) {
-    .five.columns,
-    .seven.columns {
-        width: 100% !important;
-        margin: 0;
-    }
 
-    .medicine-description img {
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .medicine-description p {
-        padding-left: 0;
-    }
-
-    .medicine-description h3 {
-        margin-top: 30px;
-        padding-left: 0;
-    }
 }
