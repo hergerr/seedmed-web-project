@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'custom_theme_assets' );
 // Custom styles
 function wpse_enqueue_page_template_styles() {
     if ( is_page_template( 'home.php' ) ) {
-        wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.min.css' );
+        wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css' );
         wp_enqueue_style( 'slider-def', get_template_directory_uri() . '/assets/css/slider-def.css' );
     }
 

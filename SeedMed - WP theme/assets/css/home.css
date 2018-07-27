@@ -263,6 +263,16 @@
     box-sizing: border-box;
 }
 
+.newsletter a{
+  text-decoration: underline;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.newsletter a:hover{
+  color: #272727;
+}
+
 .newsletter input[type=email]:hover,
 .newsletter input[type=email]:focus {
     border: none;

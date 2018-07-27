@@ -141,6 +141,9 @@ the_content();
                 </div>
                 <input class="button-signup" type="submit" value="Subskrybuj">
             </form>
+            <p>Subkrybując newsletter akceptuję <a href="http://seedmed.pl/wp-content/uploads/2018/07/Regulamin_newslettera.pdf" target="_blank">regulamin</a>
+            , wyrażam zgodę na otrzymywanie informacji handlowej drogą elektorniczą i wyraża, zgodę na przetwarzanie moich danych osobowych w celach dotyczących realizacji
+            dzuiałań marketingowych.<br><a href="http://seedmed.pl/wp-content/uploads/2018/07/Regulamin_rodo-1.pdf" target="_blank">Obowiązek informacyjny RODO</a></p>
         </div>
 </section>
 
