@@ -105,6 +105,9 @@
     text-decoration: #cc1735;
 }
 
+.medicine-description img{
+  margin-left: 100px;
+}
 
 
 @media (max-width: 1350px) {
@@ -116,7 +119,7 @@
 
     .medicine-description img {
         margin: 0 auto;
-        max-width: 80%;
+        width: 100%;
     }
 
     .medicine-description p {
