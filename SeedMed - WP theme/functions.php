@@ -88,8 +88,8 @@ function custom_jquery() {
 add_action('wp_enqueue_scripts', 'custom_jquery');
 
 function seedmed_scripts(){
-    wp_enqueue_script('scrollreveal', get_template_directory_uri() . '/assets/js/scrollreveal.js', array('jquery'), '1.0', 'true');
-    wp_enqueue_script('animations', get_template_directory_uri() . '/assets/js/animations.js', array('jquery'),'1.0','true');
+    wp_enqueue_script('scrollreveal', get_template_directory_uri() . '/assets/js/scrollreveal.min.js', array('jquery'), '1.0', 'true');
+    wp_enqueue_script('animations', get_template_directory_uri() . '/assets/js/animations.min.js', array('jquery'),'1.0','true');
 }
 
 add_action( 'wp_enqueue_scripts', 'seedmed_scripts' );
