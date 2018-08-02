@@ -12,36 +12,68 @@ function custom_theme_assets() {
 
 add_action( 'wp_enqueue_scripts', 'custom_theme_assets' );
 
+// Custom styles
 function wpse_enqueue_page_template_styles() {
-   if ( is_page_template( 'home.php' ) ) {
-       wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.min.css' );
-       wp_enqueue_style( 'slider-def', get_template_directory_uri() . '/assets/css/slider-def.min.css' );
-   }
+    if ( is_page_template( 'home.php' ) ) {
+        wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css' );
+        wp_enqueue_style( 'slider-def', get_template_directory_uri() . '/assets/css/slider-def.css' );
+    }
 
-   if ( is_page_template( 'o-firmie.php' ) ) {
-       wp_enqueue_style( 'o-firmie', get_template_directory_uri() . '/assets/css/o-firmie.min.css' );
-   }
+    if ( is_page_template( 'o-firmie.php' ) ) {
+        wp_enqueue_style( 'o-firmie', get_template_directory_uri() . '/assets/css/o-firmie.css' );
+    }
 
-   if ( is_page_template( 'medycyna.php' ) ) {
-       wp_enqueue_style( 'medycyna', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.min.css' );
-   }
+    if ( is_page_template( 'medycyna.php' ) ) {
+        wp_enqueue_style( 'medycyna', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.css' );
+    }
 
-   if ( is_page_template( 'diagnostyka.php' ) ) {
-       wp_enqueue_style( 'diagnostyka', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.min.css' );
-   }
+    if ( is_page_template( 'diagnostyka.php' ) ) {
+        wp_enqueue_style( 'diagnostyka', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.css' );
+    }
 
-   if ( is_page_template( 'weterynaria.php' ) ) {
-       wp_enqueue_style( 'weterynaria', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.min.css' );
-   }
+    if ( is_page_template( 'weterynaria.php' ) ) {
+        wp_enqueue_style( 'weterynaria', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.css' );
+    }
 
-   if ( is_page_template( 'wspolpraca.php' ) ) {
-       wp_enqueue_style( 'wspolpraca', get_template_directory_uri() . '/assets/css/wspolpraca.min.css' );
-   }
+    if ( is_page_template( 'wspolpraca.php' ) ) {
+        wp_enqueue_style( 'wspolpraca', get_template_directory_uri() . '/assets/css/wspolpraca.css' );
+    }
 
-   if ( is_page_template( 'kontakt.php' ) ) {
-       wp_enqueue_style( 'kontakt', get_template_directory_uri() . '/assets/css/kontakt.min.css' );
-   }
+    if ( is_page_template( 'kontakt.php' ) ) {
+        wp_enqueue_style( 'kontakt', get_template_directory_uri() . '/assets/css/kontakt.css' );
+    }
 }
+
+//function wpse_enqueue_page_template_styles() {
+//    if ( is_page_template( 'home.php' ) ) {
+//        wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.min.css' );
+//        wp_enqueue_style( 'slider-def', get_template_directory_uri() . '/assets/css/slider-def.min.css' );
+//    }
+//
+//    if ( is_page_template( 'o-firmie.php' ) ) {
+//        wp_enqueue_style( 'o-firmie', get_template_directory_uri() . '/assets/css/o-firmie.min.css' );
+//    }
+//
+//    if ( is_page_template( 'medycyna.php' ) ) {
+//        wp_enqueue_style( 'medycyna', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.min.css' );
+//    }
+//
+//    if ( is_page_template( 'diagnostyka.php' ) ) {
+//        wp_enqueue_style( 'diagnostyka', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.min.css' );
+//    }
+//
+//    if ( is_page_template( 'weterynaria.php' ) ) {
+//        wp_enqueue_style( 'weterynaria', get_template_directory_uri() . '/assets/css/medycyna-diagnostyka-weterynaria.min.css' );
+//    }
+//
+//    if ( is_page_template( 'wspolpraca.php' ) ) {
+//        wp_enqueue_style( 'wspolpraca', get_template_directory_uri() . '/assets/css/wspolpraca.min.css' );
+//    }
+//
+//    if ( is_page_template( 'kontakt.php' ) ) {
+//        wp_enqueue_style( 'kontakt', get_template_directory_uri() . '/assets/css/kontakt.min.css' );
+//    }
+//}
 
 add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' );
 
