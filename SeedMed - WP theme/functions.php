@@ -3,6 +3,10 @@
 //add featured image in post support
 add_theme_support( 'post-thumbnails' );
 
+//add menu support 
+add_theme_support( 'menus' );
+
+
 // Main styles
 function custom_theme_assets() {
 		wp_enqueue_style( 'normalize', get_template_directory_uri() . '/assets/css/normalize.min.css');
@@ -15,7 +19,7 @@ add_action( 'wp_enqueue_scripts', 'custom_theme_assets' );
 // Custom styles
 // function wpse_enqueue_page_template_styles() {
 //     if ( is_page_template( 'home.php' ) ) {
-//         wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.min.css' );
+//         wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css' );
 //         wp_enqueue_style( 'slider-def', get_template_directory_uri() . '/assets/css/slider-def.css' );
 //     }
 //
@@ -93,3 +97,10 @@ function seedmed_scripts(){
 }
 
 add_action( 'wp_enqueue_scripts', 'seedmed_scripts' );
+
+// Menus
+
+function medycyna_menu() {
+  register_nav_menu('medycyna-menu',__( 'Medycyna Menu' ));
+}
+add_action( 'init', 'medycyna_menu' );
