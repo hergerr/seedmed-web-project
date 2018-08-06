@@ -133,7 +133,11 @@ the_content();
         <div class="container">
             <form method="post" action="http://seedmed.pl/?na=s" onsubmit="return newsletter_check(this)">
                 <h4>Zapisz się na newsletter</h4>
-                <p>Jeśli potrzebujesz więcej informacji zapytaj. Chętnie Tobie pomożemy.</p>
+                <p>Jeśli potrzebujesz więcej informacji zapytaj. Chętnie Tobie pomożemy.<br></p>
+                <p>Subkrybując newsletter akceptuję <a href="http://seedmed.pl/wp-content/uploads/2018/07/Regulamin_newslettera.pdf" target="_blank">regulamin</a>
+                    , wyrażam zgodę na otrzymywanie informacji handlowej drogą elektorniczą i na przetwarzanie moich danych osobowych w celach dotyczących realizacji
+                    działań marketingowych.<br><a href="http://seedmed.pl/wp-content/uploads/2018/07/Regulamin_rodo-1.pdf" target="_blank">Obowiązek informacyjny RODO</a></p>
+
                 <input type="hidden" name="nlang" value="">
 
                 <div style="text-align: center;">
@@ -141,6 +145,7 @@ the_content();
                 </div>
                 <input class="button-signup" type="submit" value="Subskrybuj">
             </form>
+          </div>
         </div>
 </section>
 

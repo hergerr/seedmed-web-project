@@ -41,7 +41,8 @@
         </div>
 
         <div class="row">
-            <div class="one column .u-pull-right photos-license">
+            <div class="twelve columns photos-license">
+                <a href="mailto:webdesign@frankiewicz.com.pl?Subject=Zlecenie" target="_top">Made by TSC</a><br><br>
                 <a href="http://www.freepik.com">Designed by Freepik</a><br>
                 <a href="http://www.freepik.com">Designed by peoplecreations / Freepik</a>
             </div>

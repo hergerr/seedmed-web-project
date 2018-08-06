@@ -1,7 +1,7 @@
 /*
 Theme Name: SeedMed Theme
 Author: Szymon Wiśniewski, Tymoteusz Frankiewicz
-Author URI: 
+Author URI:
 Version: 1.0
  */
 
@@ -336,7 +336,8 @@ button {
 .photos-license a{
   text-decoration: none;
   color: inherit;
-  font-size: 0.1px;
+  text-align: center;
+  font-size: 10px;
 }
 
 @media (max-width: 800px) {
