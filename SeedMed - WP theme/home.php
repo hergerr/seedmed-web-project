@@ -63,7 +63,7 @@ the_content();
                 <div class="hero-box third-box">
                     <h3 class="reveal">Weterynaria</h3>
                     <p class="reveal-second">Miejsce, w którym każdy weterynarz znajdzie dla siebie coś ciekawego, m. in. sprzęt do diagnostyki czy też monitorowania.</p>
-                    <a href="http://seedmed.pl/Weterynaria/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="http://seedmed.pl/weterynaria/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
             </div>
         </div>
