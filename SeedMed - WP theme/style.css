@@ -322,7 +322,8 @@ button {
 }
 
 .footer span,
-.footer li {
+.footer li, 
+footer a {
   color: #545454;
 }
 
@@ -375,13 +376,12 @@ button {
   list-style: none;
 }
 
-.footer-nav a {
+footer a {
   text-decoration: none;
-  color: inherit;
   transition: color 0.2s ease-in-out;
 }
 
-.footer-nav a:hover {
+footer a:hover {
   color: #CC1735;
 }
 

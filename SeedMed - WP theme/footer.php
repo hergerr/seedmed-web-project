@@ -36,15 +36,10 @@
             </div>
 
             <div class="three columns">
-                <span>© 2017 Seedmed R. Ziarnik</span>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="twelve columns photos-license">
-                <a href="mailto:webdesign@frankiewicz.com.pl?Subject=Zlecenie" target="_top">Made by TSC</a><br><br>
-                <a href="http://www.freepik.com">Designed by Freepik</a><br>
-                <a href="http://www.freepik.com">Designed by peoplecreations / Freepik</a>
+                <h6>© 2017 Seedmed R. Ziarnik</h6>
+                <a href="mailto:webdesign@frankiewicz.com.pl?Subject=Zlecenie" target="_top">Coded and designed by TSC</a><br>
+                <a href="http://www.freepik.com">Photos by Freepik</a>
+<!--                <a href="http://www.freepik.com">Designed by peoplecreations / Freepik</a>-->
             </div>
         </div>
     </div>
