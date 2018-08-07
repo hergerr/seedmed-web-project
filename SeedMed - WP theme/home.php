@@ -51,19 +51,19 @@ the_content();
                 <div class="hero-box first-box">
                     <h3 class="reveal">Medycyna</h3>
                     <p class="reveal-second">Znajdziesz tu produkty dla chirurgii, urologii, endoskopii, anestezjologi. jeżeli czegoś nie widzisz, zapytaj.</p>
-                    <a href="medicine.html" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="http://seedmed.pl/medycyna/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
 
                 <div class="hero-box second-box">
                     <h3 class="reveal">Diagnostyka</h3>
                     <p class="reveal-second">W tej zakładce prezentujemy asortyment do diagnostyki m.in. biopsja, terapia neoadjuwantowa czy też analizatory.</p>
-                    <a href="diagnosis.html" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="http://seedmed.pl/diagnostyka/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
 
                 <div class="hero-box third-box">
                     <h3 class="reveal">Weterynaria</h3>
                     <p class="reveal-second">Miejsce, w którym każdy weterynarz znajdzie dla siebie coś ciekawego, m. in. sprzęt do diagnostyki czy też monitorowania.</p>
-                    <a href="veterinary.html" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="http://seedmed.pl/Weterynaria/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
             </div>
         </div>

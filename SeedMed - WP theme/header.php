@@ -55,7 +55,7 @@
                             <div class="dropdown-content">
                                 <a href="http://seedmed.pl/medycyna/">Medycyna</a>
                                 <a href="http://seedmed.pl/diagnostyka/">Diagnostyka</a>
-                                <a href="http://seedmed.pl/Weterynaria/">Weterynaria</a>
+                                <a href="http://seedmed.pl/weterynaria/">Weterynaria</a>
                             </div>
                         </div>
                         <li><a href="http://seedmed.pl/wspolpraca/">Współpraca</a></li>
