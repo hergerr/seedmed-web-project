@@ -384,3 +384,7 @@ button {
 .footer-nav a:hover {
   color: #CC1735;
 }
+
+.active {
+    background-color: #f2f2f2;
+}

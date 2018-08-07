@@ -7,13 +7,15 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'menus' );
 
 
+//**************************************************
+//**************************************************
 // Main styles
+
 function custom_theme_assets() {
 		wp_enqueue_style( 'normalize', get_template_directory_uri() . '/assets/css/normalize.min.css');
 		wp_enqueue_style( 'skeleton', get_template_directory_uri() . '/assets/css/skeleton.min.css');
         wp_enqueue_style( 'style', get_stylesheet_uri() );
 }
-
 add_action( 'wp_enqueue_scripts', 'custom_theme_assets' );
 
 // Custom styles
@@ -81,6 +83,9 @@ function wpse_enqueue_page_template_styles() {
 
 add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' );
 
+
+//**************************************************
+//**************************************************
 // Scripts
 
 // include custom jQuery
@@ -98,9 +103,32 @@ function seedmed_scripts(){
 
 add_action( 'wp_enqueue_scripts', 'seedmed_scripts' );
 
+
+//**************************************************
+//**************************************************
 // Menus
 
 function medycyna_menu() {
   register_nav_menu('medycyna-menu',__( 'Medycyna Menu' ));
 }
 add_action( 'init', 'medycyna_menu' );
+
+function diagnostyka_menu() {
+  register_nav_menu('diagnostyka-menu',__( 'Diagnostyka Menu' ));
+}
+add_action( 'init', 'diagnostyka_menu' );
+
+function weterynaria_menu() {
+  register_nav_menu('weterynaria-menu',__( 'Weterynaria Menu' ));
+}
+add_action( 'init', 'weterynaria_menu' );
+
+// active position in menu
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+
+function special_nav_class ($classes, $item) {
+    if (in_array('current-menu-item', $classes) ){
+        $classes[] = 'active ';
+    }
+    return $classes;
+}

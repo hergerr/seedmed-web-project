@@ -78,7 +78,7 @@
                             <li><a href="http://seedmed.pl/o-firmie/">O&nbsp;firmie</a></li>
                             <li><a href="http://seedmed.pl/medycyna/">Medycyna</a></li>
                             <li><a href="http://seedmed.pl/diagnostyka/">Diagnostyka</a></li>
-                            <li><a href="http://seedmed.pl/Weterynaria/">Weterynaria</a></li>
+                            <li><a href="http://seedmed.pl/weterynaria/">Weterynaria</a></li>
                             <li><a href="http://seedmed.pl/wspolpraca/">Współpraca</a></li>
                             <li><a href="http://seedmed.pl/kontakt/">Kontakt</a></li>
                         </ul>
