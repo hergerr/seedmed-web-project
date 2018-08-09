@@ -22,8 +22,7 @@
 
             <div class="two columns">
                 <h6>Owiedź nas na:</h6>
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/linkedin_32px.png" alt="Link to our linkedin page">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/images/twitter_32px.png" alt="Link to our twitter page">
+                <a href="https://pl.linkedin.com/in/robert-ziarnik-a0209886" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/linkedin_32px.png" alt="Link to our linkedin page"></a>
             </div>
 
             <div class="three columns">
