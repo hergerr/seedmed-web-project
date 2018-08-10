@@ -18,28 +18,28 @@ the_content();
             <!-- First slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="http://seedmed.pl/wp-content/uploads/2018/07/slider1_cropped.jpg" alt="surgeons on work">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider1_cropped.jpg" alt="surgeons on work">
                 </div>
             </div>
 
             <!-- Second slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="http://seedmed.pl/wp-content/uploads/2018/07/slider2_cropped.jpg" alt="examining roentgen's scan">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider2_cropped.jpg" alt="examining roentgen's scan">
                 </div>
             </div>
 
             <!-- Third slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="http://seedmed.pl/wp-content/uploads/2018/07/slider3_cropped.jpg" alt="puppy at vet">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider3_cropped.jpg" alt="puppy at vet">
                 </div>
             </div>
 
             <!-- Fourth slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="http://seedmed.pl/wp-content/uploads/2018/07/slider4_cropped.jpg" alt="doctor">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider4_cropped.jpg" alt="doctor">
                 </div>
             </div>
         </div>
@@ -51,19 +51,19 @@ the_content();
                 <div class="hero-box first-box">
                     <h3 class="reveal">Medycyna</h3>
                     <p class="reveal-second">Znajdziesz tu produkty dla chirurgii, urologii, endoskopii, anestezjologi. jeżeli czegoś nie widzisz, zapytaj.</p>
-                    <a href="http://seedmed.pl/medycyna/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="https://seedmed.pl/medycyna/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
 
                 <div class="hero-box second-box">
                     <h3 class="reveal">Diagnostyka</h3>
                     <p class="reveal-second">W tej zakładce prezentujemy asortyment do diagnostyki m.in. biopsja, terapia neoadjuwantowa czy też analizatory.</p>
-                    <a href="http://seedmed.pl/diagnostyka/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="https://seedmed.pl/diagnostyka/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
 
                 <div class="hero-box third-box">
                     <h3 class="reveal">Weterynaria</h3>
                     <p class="reveal-second">Miejsce, w którym każdy weterynarz znajdzie dla siebie coś ciekawego, m. in. sprzęt do diagnostyki czy też monitorowania.</p>
-                    <a href="http://seedmed.pl/weterynaria/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
+                    <a href="https://seedmed.pl/weterynaria/" class="reveal-second"><button class="button-readmore">Czytaj</button></a>
                 </div>
             </div>
         </div>
