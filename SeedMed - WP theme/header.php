@@ -46,7 +46,10 @@
         <div class="container">
             <nav>
                 <div class="header-logo">
-                    <a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt="SeedMed - Health, Life, Love"/></a>
+                    <a href="<?php echo home_url(); ?>">
+                        <h1 id="h1Logo">Seedmed to innowacyjna firma z szybko rosnącym portfolio najwyższej jakości produktów i rozwiązań dla medycyny, diagnostyki i weterynarii.
+                        </h1>
+                    </a>
                 </div>
                 <div class="header-nav">
                     <ul>
