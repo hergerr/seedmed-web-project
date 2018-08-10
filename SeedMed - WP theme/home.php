@@ -18,28 +18,28 @@ the_content();
             <!-- First slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider1_cropped.jpg" alt="surgeons on work">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/08/slider1.jpg" alt="surgeons on work">
                 </div>
             </div>
 
             <!-- Second slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider2_cropped.jpg" alt="examining roentgen's scan">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/08/slider2.jpg" alt="examining roentgen's scan">
                 </div>
             </div>
 
             <!-- Third slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider3_cropped.jpg" alt="puppy at vet">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/08/slider3.jpg" alt="puppy at vet">
                 </div>
             </div>
 
             <!-- Fourth slide -->
             <div class="slider">
                 <div class="images">
-                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/07/slider4_cropped.jpg" alt="doctor">
+                    <img class="slider-photo" src="https://seedmed.pl/wp-content/uploads/2018/08/slider4.jpg" alt="doctor">
                 </div>
             </div>
         </div>
