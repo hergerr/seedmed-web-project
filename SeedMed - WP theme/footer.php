@@ -27,6 +27,7 @@
 
             <div class="three columns">
                 <h6>Skontaktuj się&nbsp;z&nbsp;nami:</h6>
+                <span>Seedmed<br></span>
                 <span>62&nbsp;-&nbsp;010&nbsp;Pobiedziska</span>
                 <span>ul.&nbsp;Lewandowskiego&nbsp;1</span><br><br>
                 <span>Tel:&nbsp;+48&nbsp;668&nbsp;250&nbsp;118</span><br><br>
