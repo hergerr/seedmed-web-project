@@ -85,6 +85,10 @@
       margin-top: 30px;
       padding-left: 30px;
   }
+    .medicine-description h6 {
+        padding-left: 30px;
+    }
+    
     .file {
         width: 90%;
     }
