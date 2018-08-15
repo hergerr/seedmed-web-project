@@ -28,7 +28,7 @@ get_header();
         </div>
 </section>
 
-<section class="strategy">
+<section class="strategy" id="strategia">
     <div class="row">
         <div class="six columns">
             <img src="http://seedmed.pl/wp-content/uploads/2018/07/about-company2_cropped.jpg" alt="doctor's daily report" class="reveal" />

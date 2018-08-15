@@ -95,7 +95,7 @@ the_content();
                     </div>
                     <h3 class="reveal">Dobry plan na rozwój</h3>
                     <p class="reveal-second">Pomożemy w rozwoju, wdrażaniu nowych technik oraz pokażemy nowoczesny sprzęt dający nowe możliwości.</p>
-                    <div style="text-align:center;"><a href="https://seedmed.pl/o-firmie/" class=" reveal-third"><button class="button-readmore" style="-webkit-animation-duration: 1s;">Czytaj</button></a></div>
+                    <div style="text-align:center;"><a href="https://seedmed.pl/o-firmie#strategia" class=" reveal-third"><button class="button-readmore" style="-webkit-animation-duration: 1s;">Czytaj</button></a></div>
                 </div>
             </div>
 
@@ -115,7 +115,7 @@ the_content();
                     <div class="icon-circle reveal" style="-webkit-animation-delay: 0.4s; -webkit-animation-duration: 1s;">
                         <i class="icon-3 fas fa-users fa-3x"></i>
                     </div>
-                    <h3 class="reveal" style="-webkit-animation-delay: 0.4s;">Specjaliści Zespół</h3>
+                    <h3 class="reveal" style="-webkit-animation-delay: 0.4s;">Zespół specjalistów</h3>
                     <p class="reveal-second" style="-webkit-animation-delay: 0.4s;">Pracujemy w grupie specjalistów, posiadających duże doświadczenie. Wspieramy, podpowiadamy, dzielimy się wiedzą.</p>
                     <div style="text-align:center;"><a href="https://seedmed.pl/o-firmie/" class=" reveal-third"><button class="button-readmore" style="-webkit-animation-duration: 1s;">Czytaj</button></a></div>
                 </div>
