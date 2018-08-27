@@ -6,7 +6,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="keywords" content="nowe możliwości, terapia neoadjuwantowa, medycyna, diagnostyczny, sprzęt medyczny, chirurgia, urologia, onkologia, anestezjologia, weterynaria, nowe technologie, laparoskopia, medycyna estetyczna, endoskopia, monitory, hiwin, barco, hemocue, harmonic scalpel, stent, mermaid, scion, biopsja, marker">
-    <meta name="google-site-verification" content="QjW4Q1g8ZfWnISIxIhnwLmWIOLu0XRDVd4SdVgQHGRU" />
     
     <title>
         <?php wp_title(); ?>
