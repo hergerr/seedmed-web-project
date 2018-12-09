@@ -6,7 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="keywords" content="nowe możliwości, terapia neoadjuwantowa, medycyna, diagnostyczny, sprzęt medyczny, chirurgia, urologia, onkologia, anestezjologia, weterynaria, nowe technologie, laparoskopia, medycyna estetyczna, endoskopia, monitory, hiwin, barco, hemocue, harmonic scalpel, stent, mermaid, scion, biopsja, marker">
-    
+
     <title>
         <?php wp_title(); ?>
     </title>
@@ -40,7 +40,7 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <span class="top-bar-contact-location">62-010 Pobiedziska, ul. Lewandowskiego 1</span>
                     <i class="fas fa-phone"></i>
-                    <span class="top-bar-contact-phone">tel: +48 669 250 118</span>
+                    <span class="top-bar-contact-phone">tel: +48 668 250 118</span>
                 </div>
             </div>
         </section>
